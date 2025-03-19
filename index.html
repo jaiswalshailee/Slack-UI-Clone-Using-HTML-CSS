@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slack-Clone-Using-HTML&CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/icons">
+
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="nav">
+                <div class="icons">
+                    <a   href="#"><img src="./assets/arrow_back.png" alt="" class="icons-img"></a>
+
+                    <a   href="#"><img src="./assets/arrow_forward.png" alt="" class="icons-img"></a>
+
+                    <a   href="#"><img src="./assets/Clock.png" alt="" class="icons-img"></a>
+                </div>
+            </div>
+            <form action="." class="search-bar">
+                <img class="search-bar-img"  src="./assets/search.png" alt="">
+                <input class="search-bar-input" type="text" placeholder="Search Slack">
+            </form>
+            <div class="move-left">
+                <img src="./assets/Help.png" alt="" class="move-left-img">
+            </div>
+        </div>
+        <!-- End of Header -->
+
+        <!-- Main-Content Area -->
+        <div class="main">
+            <section class="sidebar">
+                <article class="sidebar-1">
+                    <div class="box-1" ></div>
+                    <div class="box-2" ></div>
+                    <div class="box-3" >
+                        <img src="./assets/Plus-Sign.png" alt="" class="box-3-img">
+                    </div>
+                </article>
+
+                <article class="sidebar-2">
+                    <section class="section-user">
+                            <div class="sidebar-user-info">
+                                <h4>Mark Christen</h4>
+                                <img src="./assets/keyboard_arrow_down.png" alt="" class="sidebar-user-info-Img">
+                            </div>
+                            <p class="sidebar-user-info-additional"><span class="small-green-dot bg-green-600">●</span>Sharon Robinson</p>
+                            <img src="./assets/file-edit.png" alt="" class="section-user-editimg">
+                    </section>
+                    <section class="unread">
+                        <h4 class="unread-header"><img class="unread-unreadimg" src="./assets/unread.png" alt="">All unread</h4>
+                        <ul>
+                            <li>
+                                <a class="text-unread" href="#"><img src="./assets/comment-alt-dots.png" alt="" class="unread-items">Threads</a>
+                            </li>
+                            <li>
+                                <a class="text-unread" href="#"><img src="./assets/mention.png" alt="" class="unread-items">Mentions & reactions</a>
+                            </li>
+                            <li>
+                                <a class="text-unread" href="#"><img src="./assets/arrow-down.png" alt="" class="unread-items">Show more</a>
+                            </li>
+                        </ul>
+
+                    </section>
+
+                    <section class="channels">
+                        <h4 class="channels-header"><img class="channels-dropdown" src="./assets/arrow_drop_down.png" alt="">Channels</h4>
+                        <ul>
+                            <li>
+                                <a class="text-channels" href="#"><img src="./assets/hashtag.png" alt="" class="channels-items">design-crit</a>
+                            </li>
+                            <li>
+                                <a class="text-channels" href="#"><img src="./assets/hashtag.png" alt="" class="channels-items">design-team</a>
+                            </li>
+                            <li>
+                                <a class="text-channels-green" href="#"><span class="small-green-dot-channels">●</span>Hubspot</a>
+                            </li>
+                            <li>
+                                <a class="text-channels-media" href="#"><img src="./assets/hashtag-green.png" alt="" class="channels-items-media">social-media</a>
+                            </li>
+                            <li>
+                                <a class="text-channels" href="#"><img src="./assets/locklogo.png" alt="" class="channels-items">team-chat</a>
+                            </li>
+                        </ul>
+
+                    </section>
+
+                    <section class="messages">
+                        <h4 class="messages-header"><img class="messages-dropdown" src="./assets/arrow_drop_down.png" alt="">Direct Messages</h4>
+                        <ul>
+                            <li>
+                                <a class="text-messages" href="#"><img src="./assets/heart.png" alt="" class="messages-items-heart">slackbot</a>
+                            </li>
+                            <li>
+                                <a class="text-messages" href="#"><span class="small-green-dot-messages">●</span>Mark Christen(You)</a>
+                            </li>
+                            <li>
+                                <a class="text-messages" href="#"><span class="small-dot-messages">●</span>Isabel</a>
+                            </li>
+                            
+                        </ul>
+                    </section>
+
+                    
+                </article>
+            </section>
+            <!-- End of Side Bar -->
+             <!-- Body -->
+            <section class="body">
+                <section class="content">
+                    <section class="content-header">
+                        <article class="channel-content-header-details">
+                            <h4 class="channel-content-header-name">#social-media 
+                                <img src="./assets/star.png" alt="">
+                            </h4>
+                            <section class="content-header-icons">
+                                <div>
+                                    <img src="./assets/user.png" alt="">
+                                    <span class="content-header-counter">23</span>
+                                </div>
+                                <div>
+                                    <img src="./assets/office-push-pin.png" alt="">
+                                    <span class="content-header-counter">23</span>
+                                </div>
+                                <p class="content-header-text">
+                                    Track and cordinate social media.
+                                  </p>
+                            </section>
+                        </article>
+
+                        <button class="btn"><img src="./assets/info_24dp_1F1F1F_FILL0_wght700_GRAD0_opsz24.png" alt=""></button>
+                    </section>
+                    <section class="feeds">
+                        <article class="feed">
+                            <section class="feed-user-avatar">
+                                <img class="user2img" src="./assets/user2-profile-image.jpg" alt="user2" width="44" height="42">
+                                <span>Z</span>
+                            </section>
+                            <section class="feed-content">
+                                <section class="feed-user-info">
+                                  <h4>Zeo Maxwell 
+                                    <span class="time-stamp">9:56am</span></h4>
+                                </section>
+                                <div>
+                                  <p class="feed-text">
+                                    No! It was my pleasure! Great to see the enthusiasm out
+                                    there.
+                                  </p>
+                                </div>
+                              </section>
+                        </article>
+
+                        <article class="feed">
+                            <section class="feeds-user-avatar">
+                              <img class="user3img" src="./assets/user3-profile-image.jpg" alt="User 3" width="44" height="42">
+                            </section>
+                            <section class="feed-content">
+                              <section class="feed-user-info">
+                                <h4>
+                                  Acme Team <span class="tag">app</span>
+                                  <span class="time-stamp">12:45pm</span>
+                                </h4>
+                              </section>
+            
+                              <p class="feed-text">Events starting in 15 minutes:</p>
+                              <div class="quoted">
+                                <h5>Team status meeting</h5>
+                                <p class="quoted-text">Today from 1:00PM to 1:30PM</p>
+                              </div>
+                            </section>
+                          </article>
+
+                          <article class="feed">
+                            <section class="feeds-user-avatar">
+                              <img class="user3img" src="./assets/user4.jpg" alt="User 4" width="44" height="42">
+                            </section>
+                            <section class="feed-content">
+                              <section class="feed-user-info">
+                                <h4>Hary Boone <span class="time-stamp">12:58pm</span></h4>
+                              </section>
+                              <div>
+                                <p class="feed-text">
+                                  Quick note: today <span class="mention">@lisa</span> will
+                                  join our team sync to provide updates on the launch, if
+                                  you have questions, bring 'em. See you all later...er, in
+                                  2 minutes.
+                                </p>
+                              </div>
+                            </section>
+                          </article>
+
+                    </section>
+                    
+                </section>
+                <section class="right-sidebar">
+                    <section class="right-sidebar-header">
+                        <article class="right-sidebar-header-details">
+                          <h4 class="right-sidebar-header-name">Details</h4>
+                          <p>#social-media</p>
+                        </article>
+                      </section>
+                      
+                      <section class="right-sidebar-contact">
+                        <section class="right-sidebar-contact-details">
+                            <img class="Rightbar-contact-img1" src="./assets/add-contact.png" alt="">
+                            <p>Add</p>
+                        </section>
+                        <section class="right-sidebar-contact-details">
+                            <img class="Rightbar-contact-img1" src="./assets/add-searching (1).png" alt="">
+                            <p>Find</p>
+                        </section>
+                        <section class="right-sidebar-contact-details">
+                            <img class="Rightbar-contact-img1" src="./assets/call.png" alt="">
+                            <p>Call</p>
+                        </section>
+                        <section class="right-sidebar-contact-details">
+                            <img class="Rightbar-contact-img1" src="./assets/more.png" alt="">
+                            <p>More</p>
+                        </section>
+
+                      </section>
+
+                      <section class="right-sidebar-about">
+                        <article class="about-header">
+                          <h4>About</h4>
+                          
+                        </article>
+                        <article class="about-details">
+                            <h4>Topic</h4>
+                            <p>Track and cordinate social media</p>
+                            <h4>Description</h4>
+                            <p>Home of the social media team</p>
+                        </article>
+                      </section>
+
+                </section>
+
+            </section>
+        </div>
+
+    </div>
+</body>
+</html>
